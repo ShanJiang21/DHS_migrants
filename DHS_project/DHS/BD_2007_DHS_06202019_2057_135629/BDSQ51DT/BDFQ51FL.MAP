@@ -1,0 +1,518 @@
+                                                   BDFQ51FL
+                                                BDFQ51FL_DICT
+
+                                 C:\COUNTRIES\Bangladesh2007 SAQ\BDFQ51FL.DCF
+                                    Last Modified:  5/25/2012  11:33:49 AM
+
+--------------------------------------------------------------------------------------------------------------
+Level Name                    Level Label                                                  Type            Rec
+  Record Name                   Record Label                                              Value  Req  Max  Len
+--------------------------------------------------------------------------------------------------------------
+COMMUNITY                     Community Survey
+  RECORD1                       RECORD1                                                          Yes    1  891
+Level: Community Survey                                Record: RECORD1
+--------------------------------------------------------------------------------------------------------------
+                                                                                 Data Item            Dec Zero
+Item Name              Item Label                                     Start  Len Type Type  Occ  Dec Char Fill
+--------------------------------------------------------------------------------------------------------------
+                         (record type)                                    0    0   AN    I    1    0   No   No
+COCLUST           (id) Cluster number                                     1    3    N    I    1    0   No   No
+                               1:361  
+FACCODE           (id) Facility Code                                      4    3   AN    I    1    0   No   No
+FDIV                   Division                                           7    1    N    I    1    0   No   No
+                               1  Barisal
+                               2  Chittagong
+                               3  Dhaka
+                               4  Khulna
+                               5  Rajshahi
+                               6  Sylhet
+                          (na)    Not applicable
+FDIST                  District                                           8    2    N    I    1    0   No   No
+FTHANA                 Thana                                             10    3    N    I    1    0   No   No
+FCLUST                 Cluster                                           13    3    N    I    1    0   No   No
+FLATDEG                Latitude : Degrees                                16    2    N    I    1    0   No   No
+                               20:26  
+                           (m) 99     Missing
+FLATMIN                Latitude : Minutes                                18    2    N    I    1    0   No   No
+                               0:60  
+                           (m) 99    Missing
+FLATTHO                Latitude : Thousandths                            20    3    N    I    1    0   No   No
+FLONDEG                Longitude : Degrees                               23    3    N    I    1    0   No   No
+                               88:92  
+                           (m) 999    Missing
+FLONMIN                Longitude : Minutes                               26    2    N    I    1    0   No   No
+                               0:60  
+                           (m) 99    Missing
+FLONTHO                Longitude : Thousandths                           28    3    N    I    1    0   No   No
+FINTD                  Day of interview                                  31    2    N    I    1    0   No   No
+                               1:31  
+FINTM                  Month of interview                                33    2    N    I    1    0   No   No
+                               1:12  
+FINTY                  Year of interview                                 35    4    N    I    1    0   No   No
+                               2007  
+FRESULT                Result                                            39    1    N    I    1    0   No   No
+                               1  Complete
+                               2  Incomplete
+                               6  Other
+                               7  Already entered (do not allow this in entry!)
+FINTNUM                Interviewer code                                  40    2    N    I    1    0   No   No
+FPOSTYPE               Position type of interviewee                      42    1    N    I    1    0   No   No
+                               1  Clinic Manager/Facility Administrator
+                               2  Physician
+                               3  Professional Nurse/Midwife
+                               4  Auxiliary Nurse
+                               5  FWV/Paramedic
+                               6  Other
+                           (m) 9  Missing
+                          (na)    NA
+FSTARTH                Start of interview (hour)                         43    2    N    I    1    0   No   No
+                               6:23  
+                               97    Inconsistent
+                           (m) 99    Missing
+FSTARTM                Start of interview (minutes)                      45    2    N    I    1    0   No   No
+                               0:59  
+                               97    Inconsistent
+                           (m) 99    Missing
+FWEIGHT                Cluster level weight                              47    8    N    I    1    0   No   No
+FTWEIGHT               Thana level weight                                55    8    N    I    1    0   No   No
+FUWEIGHT               Union level weight                                63    8    N    I    1    0   No   No
+F100                   Permission received to continue                   71    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NotAppl
+F101A                  Facility type                                     72    1    N    I    1    0   No   No
+                               1  Tertiary/third level hospital
+                               2  Second level referral hospital
+                               3  First level hospital
+                               4  Health post/dispensary
+                               5  Private doctor's office or clinic
+                           (m) 9  Missing
+                          (na)    NotAppl
+F101B                  Operating authority                               73    2    N    I    1    0   No   No
+                               1   Govt
+                               2   NSDP NGO
+                               3   Others NGO
+                               4   Private for profit
+                               5   Private not-for-profit
+                               6   Quasi govt (UPHCP)
+                               7   Religious/ trustee
+                               96  Other
+                           (m) 99  Missing
+                          (na)     NotAppl
+F101C                  Operating department                              75    1    N    I    1    0   No   No
+                               1  Health
+                               2  Planning
+                               3  Local govt
+                               6  Other
+                           (m) 9  Missing
+                          (na)    NA
+F101D                  Sign announcing svcs available                    76    1    N    I    1    0   No   No
+                               1  Outside building
+                               2  Inside bldg
+                               3  Both inside and outside bldg
+                               4  No visible sign
+F201A                  Inpatient care offered                            77    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NA
+F201B                  Total number of inpatient beds                    78    3    N    I    1    0   No   No
+                               0:900  
+                               998    Don't know
+                           (m) 999    Missing
+                          (na)        NotAppl
+F202                   Number of beds vacant at time of interview        81    3    N    I    1    0   No   No
+                               0:900  
+                               998    Don't know
+                           (m) 999    Missing
+                          (na)        NotAppl
+F203                   Is there 24-hour staff coverage                   84    1    N    I    1    0   No   No
+                               1  Yes, 24-hour duty roster observed or staff life onsite
+                               2  Yes, 24-hour coverage but no duty roster or staff living onsite
+                               3  No duty roster or 24-hour coverage observed
+                           (m) 9  Missing
+                          (na)    NA
+F204                   At least one site with both visual and auditory   85    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NA
+F205                   Working phone or shortwave radio during client    86    1    N    I    1    0   No   No
+                               1  Yes, onsite or with 5 mins walk
+                               2  Yes, within 5 mins, not onsite
+                               3  Only pay phone or personal cell phone
+                               6  No
+                           (m) 9  Missing
+                          (na)    NA
+F206                   Ambulance or other vehicle for emergency transp   87    1    N    I    1    0   No   No
+                               1  Yes, functioning with fuel
+                               2  Yes, not functioning
+                               3  Yes, hired
+                               4  No
+                           (m) 9  Missing
+                          (na)    NA
+F207                   Electricity at time of interview                  88    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NA
+F208                   Functioning back up or stand-by generator for e   89    1    N    I    1    0   No   No
+                               1  Yes, functioning with fuel
+                               2  No
+                           (m) 9  Missing
+                          (na)    NA
+F209                   Most often used source of water by community      90    1    N    I    1    0   No   No
+                               0  No water available
+                               1  Safe water source
+                               2  Other water source
+                               3  Bottled water
+                               6  Other
+                           (m) 9  Missing
+                          (na)    NA
+F210                   Functional water outlet inside or outside w/in    91    1    N    I    1    0   No   No
+                               1  Yes, observed
+                               2  No
+                           (m) 9  Missing
+                          (na)    NA
+F211                   Toilet available for client's use                 92    1    N    I    1    0   No   No
+                               1  Yes, improved type
+                               2  Yes, other type
+                               3  No
+                           (m) 9  Missing
+                          (na)    NA
+F212                   Condition of toilet                               93    1    N    I    1    0   No   No
+                               1  Functioning
+                               2  Not functioning
+                               3  Unable to observe
+                           (m) 9  Missing
+                          (na)    NA
+F213A                  Store room for meds and FP methods protected fr   94    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NA
+F213B                  Store room for meds and FP methods protected fr   95    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NA
+F213C                  Store room for meds and FP methods have shelves   96    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NA
+F213D                  Store room for meds and FP methods items off gr   97    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NA
+F301                   Info compiled on services                         98    1    N    I    1    0   No   No
+                               1  Yes, observed
+                               2  Yes, reported (not seen)
+                               3  No
+                           (m) 9  Missing
+                          (na)    NA
+F302                   Meeting reports available                         99    1    N    I    1    0   No   No
+                               1  Yes, observed during past 3 months
+                               2  Yes, observed for more than 3 months ago
+                               3  Yes, reported (not seen)
+                               4  No
+                           (m) 9  Missing
+                          (na)    NA
+F302A                  MCH/FP services offered                          100    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NA
+F302B                  EOC (First aid) svcs offered                     101    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NA
+F302C                  EOC (Basic) services offered                     102    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NA
+F302D                  EOC (Comprehensive) services offered             103    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NA
+F303A1                 Row number                                       104    2    N    I   19    0   No   No
+  (F303A1_VS1)           Row number/type of staff
+                               1   Professor
+                               2   Associate Professor
+                               3   Assistant Professor
+                               4   Consultant/Specialist
+                               5   Register/Asst
+                               6   Medical Officer (trained on EOC)
+                               7   Medical Officer (Not trained on EOC)
+                               8   FCPS/EOC Trainee
+                               9   Anesthetist
+                               10  Senior Staff Nurses
+                               11  SACMO/Medical Asst
+                               12  Nurses
+                               13  Asst Nursing Attendant/ Midwife/ Dai-Nurse
+                               14  Family Welfare Visitor (FWV)
+                               15  MCH Asst/Female Med Attendant
+                               16  Counselor/ Svc Promoter (CBD)
+                               17  Pharmacist/ Compounder
+                               18  Lab Tech
+                               19  Other
+F303A2                 Number of FT staff of this type                  142    2    N    I   19    0   No   No
+                               0:90  
+                           (m) 99    Missing
+                          (na)       NA
+F303B1                 Number of FT staff present                       180    2    N    I   19    0   No   No
+                               0:90  
+                           (m) 99    Missing
+                          (na)       NA
+F303B2                 Number of FT staff on leave                      218    2    N    I   19    0   No   No
+                               0:90  
+                           (m) 99    Missing
+                          (na)       NA
+F303B3                 Number of FT staff posts vacant                  256    2    N    I   19    0   No   No
+                               0:90  
+                           (m) 99    Missing
+                          (na)       NA
+F303B4                 Number of FT staff working on deputation         294    2    N    I   19    0   No   No
+                               0:90  
+                           (m) 99    Missing
+                          (na)       NA
+F303B5                 Number of FT staff, other reasons                332    2    N    I   19    0   No   No
+                               0:90  
+                           (m) 99    Missing
+                          (na)       NA
+F303D                  Facility operated by NGO                         370    1    N    I   19    0   No   No
+                               1  Yes, NGO
+                               2  Other
+                           (m) 9  Missing
+                          (na)    NA
+F303E                  Number of PT staff of this type                  389    2    N    I   19    0   No   No
+                               0:90  
+                           (m) 99    Missing
+                          (na)       NA
+F303F1                 Number of PT staff present                       427    2    N    I   19    0   No   No
+                               0:90  
+                           (m) 99    Missing
+                          (na)       NA
+F303F2                 Number of PT staff on leave                      465    2    N    I   19    0   No   No
+                               0:90  
+                           (m) 99    Missing
+                          (na)       NA
+F303F3                 Number of PT staff posts vacant                  503    2    N    I   19    0   No   No
+                               0:90  
+                           (m) 99    Missing
+                          (na)       NA
+F303F4                 Number of PT staff, other reasons                541    2    N    I   19    0   No   No
+                               0:90  
+                           (m) 99    Missing
+                          (na)       NA
+F303H                  Specialist doctor present today                  579    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NA
+F304                   Row #, type of service                           580    2    N    I   28    0   No   No
+                               1   Pill
+                               2   Condom
+                               3   IUD
+                               4   Injectables
+                               5   Norplant
+                               6   Vasectomy
+                               7   Tubectomy
+                               8   Menstrual Regulation
+                               9   Emergency Contraceptive Pill (ECP)
+                               10  Antenatal check-up
+                               11  Normal Delivery Service
+                               12  C-Section
+                               13  Postpartum check-up
+                               14  Tetanus injection
+                               15  STD/STI treatment/ diagnosis
+                               16  PMTCT
+                               17  Diagnostic counseling and testing for HIV
+                               18  Palliative treatment svcs(OI or pain) for AIDS
+                               19  ARI treatment
+                               20  Immunization for children
+                               21  Diarrheal mgmt/treatment
+                               22  Malaria treatment
+                               23  Pneumonia treatment
+                               24  Curative child care
+                               25  Treatment or client followup for TB
+                               26  Voluntary counseling and testing
+                               27  Blood transfusion
+                               28  Other
+F305                   Services available at facility or thru outreach  636    1    N    I   28    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NA
+F306                   Service provided to any client in last 7 days    664    1    N    I   28    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NA
+F307                   Had any stockouts in past 6 months               692    1    N    I   28    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NA
+F308A                  Facility offer delivery svcs                     720    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NA
+F308B                  Row #, type of maternal service                  721    2    N    I   16    0   No   No
+                               1   Parenteral antibiotic
+                               2   Parenteral oxcytosis
+                               3   Parenteral anticonvulsant/ sedative
+                               4   Perineal tear repair
+                               5   Vacuum extraction
+                               6   Forceps
+                               7   Manual removal of placenta
+                               8   Dilatation and curettage (D&C/E&C)
+                               9   Caesarian section (LUCS/C/S)
+                               10  Laparotomy
+                               11  Blood transfusion
+                               12  Uterine sounds
+                               13  Specula
+                               14  Tenacula
+                               15  Mgmt of labor
+                               16  Repair of fistula
+F308C                  Facility provide this service                    753    1    N    I   16    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NA
+F308D                  Service provided in last 3 months                769    1    N    I   16    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NA
+F401                   Availability of Supplies and Eqmt                785    1    N    I   22    0   No   No
+                               1  Observed and functioning
+                               2  Observed but not functioning
+                               3  Not available
+                           (m) 9  Missing
+                          (na)    NA
+F402A                  Row #/test type                                  807    1    N    I    8    0   No   No
+                               1  Complete blood count
+                               2  Anemia [hemoglobin, hematocrit, or litmus paper]
+                               3  Malaria [rapid test or microscopy]
+                               4  Urine glucose (dipstix or benedicts test)
+                               5  Urine protein (dipstix or acetic acid)
+                               6  HIV (rapid, ELISA, or Western Blot)
+                               7  AFB for TB
+                               8  Syphillis (VDRL or RPR)
+F402B                  Test availability                                815    1    N    I    8    0   No   No
+                               1  Test can be conducted onsite today
+                               2  Test conducted offsite
+                               3  Test not available
+                           (m) 9  Missing
+                          (na)    NA
+F403A                  Drug available today                             823    1    N    I   14    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NA
+F403B                  At least one unit with valid date of expiry      837    1    N    I   14    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NA
+F404A                  Product available today                          851    1    N    I    6    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NA
+F404B                  At least one unit with valid date of expiry      857    1    N    I    6    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NA
+F501A                  Disposal of sharps                               863    1    N    I    1    0   No   No
+                               1  Incinerator, high temp
+                               2  Incinerator, chamber drum/brick
+                               3  Bury and burn
+                               4  Bury, not burn
+                               5  Put in covered pit (maybe latrine)
+                               6  Burn (in ground or pit), not burn
+                               7  No burn or bury
+                               8  Store and remove offsite
+                               9  Never have items
+                          (na)    Missing
+F501B                  Disposal of infected waste                       864    1    N    I    1    0   No   No
+                               1  Incinerator, high temp
+                               2  Incinerator, chamber drum/brick
+                               3  Bury and burn
+                               4  Bury, not burn
+                               5  Put in covered pit (maybe latrine)
+                               6  Burn (in ground or pit), not burn
+                               7  No burn or bury
+                               8  Store and remove offsite
+                               9  Never have items
+                          (na)    Missing
+F502A                  Disposal location for sharps                     865    1    N    I    1    0   No   No
+                               1  Yes, protected (waste visible)
+                               2  Yes, protected (no waste visible)
+                               3  No, not protected (waste visible)
+                               4  No, not protected (no waste visible)
+                               5  Site not observed
+                           (m) 9  Missing
+                          (na)    NA
+F502B                  Disposal location for infected waste             866    1    N    I    1    0   No   No
+                               1  Yes, protected (waste visible)
+                               2  Yes, protected (no waste visible)
+                               3  No, not protected (waste visible)
+                               4  No, not protected (no waste visible)
+                               5  Site not observed
+                           (m) 9  Missing
+                          (na)    NA
+F601                   Facility had supervisory visit in last 2 mos     867    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  DK
+                           (m) 9  Missing
+                          (na)    NA
+F602                   Who supervises facility                          868   10   AN    I    1    0   No   No
+                               A           Medical officer/MCH
+                               B           Project Director/Manager
+                               C           District Officer
+                               D           Upazila Health/FP Officer (UHFPO)
+                               E           Senior Family Welfare Visitor
+                               F           Family Welfare Visitor (FWV)
+                               G           FP Inspector (FPI)
+                               H           Thana Manager
+                               I           NGO Monitoring Officer
+                               J           QA Team Members
+                               X           Other
+                               Z           Don't know
+F603                   What does supervisor do when visits facility     878   10   AN    I    1    0   No   No
+                               A           Delivered supplies (fuel, medicine)
+                               B           Observed Immunizations
+                               C           Observed sick child mgmt
+                               D           Observed antenatal care
+                               E           Observed FP
+                               F           Reviewed reports
+                               G           Updated health worker pgm
+                               H           Discussed problems
+                               I           Checked register
+                               J           Saw achievement and target
+                               K           Checked cleanliness of clinic
+                               L           Checked sterilization eqmt
+                               M           Made suggestions for improvement
+                               N           Offer praise for good work
+                               X           Other
+FENDH                  End of interview (hour)                          888    2    N    I    1    0   No   No
+                               6:23  
+                               97    Inconsistent
+                           (m) 99    Missing
+FENDM                  End of interview (minutes)                       890    2    N    I    1    0   No   No
+                               0:59  
+                               97    Inconsistent
+                           (m) 99    Missing
+--------------------------------------------------------------------------------------------------------------
+Relation Name         Primary               Linked by             Secondary             Linked by
+--------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,646 @@
+                                                   BDCQ51FL
+                                                BDCQ51FL_DICT
+
+                                 C:\COUNTRIES\Bangladesh2007 SAQ\BDCQ51FL.DCF
+                                    Last Modified:  5/25/2012  11:33:49 AM
+
+--------------------------------------------------------------------------------------------------------------
+Level Name                    Level Label                                                  Type            Rec
+  Record Name                   Record Label                                              Value  Req  Max  Len
+--------------------------------------------------------------------------------------------------------------
+COMMUNITY                     Community Survey
+  RECORD1                       RECORD1                                                          Yes    1 1328
+Level: Community Survey                                Record: RECORD1
+--------------------------------------------------------------------------------------------------------------
+                                                                                 Data Item            Dec Zero
+Item Name              Item Label                                     Start  Len Type Type  Occ  Dec Char Fill
+--------------------------------------------------------------------------------------------------------------
+                         (record type)                                    0    0   AN    I    1    0   No   No
+COCLUST           (id) Cluster number                                     1    3    N    I    1    0   No   No
+                               1:361  
+CODIV                  Division                                           4    1    N    I    1    0   No   No
+                               1  Barisal
+                               2  Chittagong
+                               3  Dhaka
+                               4  Khulna
+                               5  Rajshahi
+                               6  Sylhet
+                          (na)    Not applicable
+CODIST                 District                                           5    2    N    I    1    0   No   No
+COTHANA                Thana                                              7    3    N    I    1    0   No   No
+COTYPE                 Cluster type                                      10    1    N    I    1    0   No   No
+                               1  old cluster
+                               2  new cluster
+                           (m) 9  missing
+COLOCAL                City\Town\Countryside                             11    1    N    I    1    0   No   No
+                               1  Rural
+                               2  SMA
+                               3  Municipality
+                               4  Other urban
+COLATDEG               Latitude : Degrees                                12    2    N    I    1    0   No   No
+                               20:26  
+                           (m) 99     Missing
+COLATMIN               Latitude : Minutes                                14    2    N    I    1    0   No   No
+                               0:60  
+                           (m) 99    Missing
+COLATTHO               Latitude : Thousandths                            16    3    N    I    1    0   No   No
+COLONDEG               Longitude : Degrees                               19    3    N    I    1    0   No   No
+                               88:92  
+                           (m) 999    Missing
+COLONMIN               Longitude : Minutes                               22    2    N    I    1    0   No   No
+                               0:60  
+                           (m) 99    Missing
+COLONTHO               Longitude : Thousandths                           24    3    N    I    1    0   No   No
+COWAYPNT               Waypoint                                          27    3   AN    I    1    0   No   No
+COINTD                 Day of interview                                  30    2    N    I    1    0   No   No
+                               1:31  
+COINTM                 Month of interview                                32    2    N    I    1    0   No   No
+                               1:12  
+COINTY                 Year of interview                                 34    4    N    I    1    0   No   No
+                               2007  
+CORESULT               Result                                            38    1    N    I    1    0   No   No
+                               1  Complete
+                               2  Incomplete
+                               6  Other
+                           (m) 9  Missing
+COINTERV               Interviewer code                                  39    2    N    I    1    0   No   No
+COPOS                  Position type                                     41    2    N    I    7    0   No   No
+                               0   No more entries
+                               1   Elected official
+                               2   Religious leader
+                               3   Teacher/educator
+                               4   Doctor/health official
+                               5   Service holder
+                               6   Business person
+                               96  Other
+                           (m) 99  Missing
+                          (na)     NA
+COSEX                  Sex                                               55    1    N    I    7    0   No   No
+                               1  Male
+                               2  Female
+                           (m) 9  Missing
+                          (na)    NA
+COSTARTH               Start of interview (hour)                         62    2    N    I    1    0   No   No
+                               6:23  
+                               97    Inconsistent
+                           (m) 99    Missing
+COSTARTM               Start of interview (minutes)                      64    2    N    I    1    0   No   No
+                               0:59  
+                               97    Inconsistent
+                           (m) 99    Missing
+CWEIGHT                Cluster level weight                              66    8    N    I    1    0   No   No
+CTWEIGHT               Thana level weight                                74    8    N    I    1    0   No   No
+CUWEIGHT               Union level weight                                82    8    N    I    1    0   No   No
+WOCLUST                working cluster number                            90    3    N    I    1    0   No   No
+CNUMREC2               Number of health facilities (record C2 control)   93    2    N    I    1    0   No   No
+                               0:20  
+                          (na)       NA
+CNUMREC3               Number of health and FP Workers (record C3 cont   95    1    N    I    1    0   No   No
+                               0:9  
+                          (na)      NA
+CNUMREC4               Number of Depot Holders (record C4 control)       96    1    N    I    1    0   No   No
+                               0:5  
+                          (na)      NA
+CNUMREC6               Number of Doctors (record C6 control)             97    2    N    I    1    0   No   No
+                               0:20  
+                          (na)       NA
+CO100                  Permission received to continue                   99    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NotAppl
+CO102                  Most common type of transportation to thana hea  100    2    N    I    1    0   No   No
+                               1   Car/bus/tempo
+                               2   Motorcycle
+                               3   Motor launch
+                               4   Bicycle
+                               5   Animal cart
+                               6   Boat
+                               7   Path
+                               8   Rickshaw/rickshaw van
+                               9   Train
+                               10  Baby taxi
+                               96  Other
+                           (m) 99  Missing
+                          (na)     NotAppl
+CO103                  Time to thana headquarters                       102    3    N    I    1    0   No   No
+                               0:900  
+                           (m) 999    Missing
+                          (na)        NotAppl
+CO103A                 Transportation cost to Thana HQ                  105    4    N    I    1    0   No   No
+                               0:9000  
+                           (m) 9999    Missing
+                          (na)         NotAppl
+CO105                  Most common type of transportation to district   109    2    N    I    1    0   No   No
+                               1   Car/bus/tempo
+                               2   Motorcycle
+                               3   Motor launch
+                               4   Bicycle
+                               5   Animal cart
+                               6   Boat
+                               7   Path
+                               8   Rickshaw/rickshaw van
+                               9   Train
+                               10  Baby taxi
+                               96  Other
+                           (m) 99  Missing
+                          (na)     NotAppl
+CO106                  Time to district headquarters                    111    3    N    I    1    0   No   No
+                               0:900  
+                           (m) 999    Missing
+                          (na)        NotAppl
+CO106A                 Transportation cost to District HQ               114    4    N    I    1    0   No   No
+                               0:9000  
+                           (m) 9999    Missing
+                          (na)         NotAppl
+CO107                  Main access road to this village                 118    1    N    I    1    0   No   No
+                               1  All weather road
+                               2  Seasonal road
+                               3  Waterway
+                               4  Path
+                               6  Other
+                           (m) 9  Missing
+                          (na)    NotAppl
+CO108                  Main economic activities in this area/village    119    6   AN    I    1    0   No   No
+                               A       Agriculture
+                               B       Livestock
+                               C       Fishing
+                               D       Commerce
+                               E       Manufacturing
+                               F       Day Labor
+                               G       Service
+                               X       Other
+CO110U                 Distance to the weekly market (Unit)             125    1    N    I    1    0   No   No
+                               1  Mile
+                               2  Kilometer
+                           (m) 9  Missing
+                          (na)    Notappl
+CO110N                 Distance to the weekly market (Number)           126    2    N    I    1    0   No   No
+                               0:97  
+                           (m) 99    Missing
+                          (na)       Notappl
+CO111A                 Telephone service in this area                   128    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NotAppl
+CO112                  Electricity available here                       129    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NotAppl
+CO113                  Primary source of water                          130    2    N    I    1    0   No   No
+                               1   Piped
+                               2   Public tap
+                               3   Well
+                               4   Tubewell
+                               5   River/stream/lake
+                               6   Rainwater
+                               96  Other
+                           (m) 99  Missing
+                          (na)     NotAppl
+CO114A                 Mother's club or ladies associations             132    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NotAppl
+CO114B                 Grameen Bank member                              133    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NotAppl
+CO114C                 Voluntary organization member                    134    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NotAppl
+CO114D                 BRAC income generation activities                135    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NotAppl
+CO114E                 Proshika                                         136    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NotAppl
+CO114F                 ASHA                                             137    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NotAppl
+CO114G                 BSIC cottage industries                          138    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NotAppl
+CO114H                 Cooperative society                              139    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NotAppl
+CO114I                 Other NGOs                                       140    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NotAppl
+CO115AU                Distance to Madrasha (Unit)                      141    1    N    I    1    0   No   No
+                               0  In this village
+                               1  Mile
+                               2  Kilometer
+                           (m) 9  Missing
+                          (na)    Notappl
+CO115AN                Distance to Madrasha (Number)                    142    2    N    I    1    0   No   No
+                               0     In this village/mohalla
+                               1:97  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Notappl
+CO115BU                Distance to primary school (Unit)                144    1    N    I    1    0   No   No
+                               0  In this village
+                               1  Mile
+                               2  Kilometer
+                           (m) 9  Missing
+                          (na)    Notappl
+CO115BN                Distance to primary school (Number)              145    2    N    I    1    0   No   No
+                               0     In this village/mohalla
+                               1:97  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Notappl
+CO115CU                Distance to Boy's high school (Unit)             147    1    N    I    1    0   No   No
+                               0  In this village
+                               1  Mile
+                               2  Kilometer
+                           (m) 9  Missing
+                          (na)    Notappl
+CO115CN                Distance to Boy's high school (Number)           148    2    N    I    1    0   No   No
+                               0     In this village/mohalla
+                               1:97  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Notappl
+CO115DU                Distance to Girl's high school (Unit)            150    1    N    I    1    0   No   No
+                               0  In this village
+                               1  Mile
+                               2  Kilometer
+                           (m) 9  Missing
+                          (na)    Notappl
+CO115DN                Distance to Girl's high school (Number)          151    2    N    I    1    0   No   No
+                               0     In this village/mohalla
+                               1:97  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Notappl
+CO115EU                Distance to High school (co-education) (Unit)    153    1    N    I    1    0   No   No
+                               0  In this village
+                               1  Mile
+                               2  Kilometer
+                           (m) 9  Missing
+                          (na)    Notappl
+CO115EN                Distance to High school (co-education) (Unit)    154    2    N    I    1    0   No   No
+                               0     In this village/mohalla
+                               1:97  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Notappl
+CO115FU                Distance to Post office (Unit)                   156    1    N    I    1    0   No   No
+                               0  In this village
+                               1  Mile
+                               2  Kilometer
+                           (m) 9  Missing
+                          (na)    Notappl
+CO115FN                Distance to Post office (Number)                 157    2    N    I    1    0   No   No
+                               0     In this village/mohalla
+                               1:97  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Notappl
+CO115GU                Distance to Cinema hall (Unit)                   159    1    N    I    1    0   No   No
+                               0  In this village
+                               1  Mile
+                               2  Kilometer
+                           (m) 9  Missing
+                          (na)    Notappl
+CO115GN                Distance to Cinema hall (Number)                 160    2    N    I    1    0   No   No
+                               0     In this village/mohalla
+                               1:97  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Notappl
+CO117                  Shop or person in village/mohalla selling famil  162    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  DK
+                           (m) 9  Missing
+                          (na)    NotAppl
+CO201                  Row Number                                       163    2    N    I   20    0   No   No
+                               1:20  
+                          (na)       
+CO201C                 Health facility code                             203    3   AN    I   20    0   No   No
+CO202D                 District                                         263    2    N    I   20    0   No   No
+                               0:95  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       NotAppl
+CO202TH                Thana                                            303    3    N    I   20    0   No   No
+                               0:995  
+                               998    Dont know
+                           (m) 999    Missing
+                          (na)        NotAppl
+CO202LO                Location                                         363   15   AN    I   20    0   No   No
+CO203                  Health facility operation authority              663    2    N    I   20    0   No   No
+                               1   Government
+                               2   NGO
+                               3   Private
+                               4   Religious
+                               96  Other
+                               98  Don't know
+                           (m) 99  Missing
+                          (na)     Notappl
+CO204U                 Distance to health facility (Unit)               703    1    N    I   20    0   No   No
+                               1  Mile
+                               2  Kilometer
+                               9  Special value
+                          (na)    Notappl
+CO204N                 Distance to health facility (Number)             723    2    N    I   20    0   No   No
+                               0     In this village/mohalla
+                               1:97  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Notappl
+CO205                  Time to health facility                          763    3    N    I   20    0   No   No
+                               0:900  
+                               998    Don't know
+                           (m) 999    Missing
+                          (na)        NotAppl
+CO206                  Year of facility opening                         823    4    N    I   20    0   No   No
+                               1900:2007  
+                               9998       Don't know
+                           (m) 9999       Missing
+                          (na)            Notappl
+CO207                  Health facility is in this District/Thana/Union  903    1    N    I   20    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    Notappl
+CO300                  Row number of fieldworker                        923    1    N    I    9    0   No   No
+                               1:9  
+                          (na)      NA
+CO301                  Title/Position of fieldworker                    932    2    N    I    9    0   No   No
+                               1   FWV (Family Welfare Visitor)
+                               2   Sacmo/MA
+                               3   FWA (Family Welfare Asst)
+                               4   FWA with SBA (Skilled Birth Attendant)
+                               5   Health Asst
+                               6   HA with SBA
+                               7   Community Mobilizer
+                               8   Other
+                               9   DK
+                           (m) 99  Missing
+                          (na)     NA
+CO302                  Authority under which fieldworker operates       950    2    N    I    9    0   No   No
+                               1   Government
+                               2   NGO
+                               3   Private
+                               4   Religious
+                               5   NSDP (Rural)
+                               6   NSDP (Urban)
+                               96  Other
+                               98  DK
+                           (m) 99  Missing
+                          (na)     NA
+CO303                  Health worker lives in locality                  968    1    N    I    9    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NotAppl
+CO304D                 If not, District of residence                    977    2    N    I    9    0   No   No
+                           (m) 99  Missing
+                          (na)     NotAppl
+CO304T                 If not, Thana of residence                       995    3    N    I    9    0   No   No
+                           (m) 999  Missing
+                          (na)      NotAppl
+CO304U                 If not, Union of residence                      1022    3    N    I    9    0   No   No
+CO304V                 If not, Village of residence                    1049    3    N    I    9    0   No   No
+CO305A                 Health service provided by field worker         1076    1    N    I    9    0   No   No
+                               1  Unprompted
+                               2  Prompted
+                               3  No
+                           (m) 9  Missing
+                          (na)    NA
+CO305B                 FP service provided by field worker             1085    1    N    I    9    0   No   No
+                               1  Unprompted
+                               2  Prompted
+                               3  No
+                           (m) 9  Missing
+                          (na)    NA
+CO305C                 Both services provided by field worker          1094    1    N    I    9    0   No   No
+                               1  Unprompted
+                               2  Prompted
+                               3  No
+                           (m) 9  Missing
+                          (na)    NA
+CO305D                 ORS service provided by field worker            1103    1    N    I    9    0   No   No
+                               1  Unprompted
+                               2  Prompted
+                               3  No
+                           (m) 9  Missing
+                          (na)    NA
+CO305E                 DK                                              1112    1    N    I    9    0   No   No
+                               1  Unprompted
+                               2  Prompted
+                               3  No
+                           (m) 9  Missing
+                          (na)    NA
+CO400                  Row number of depot holder                      1121    1    N    I    5    0   No   No
+                               1:5  
+                          (na)      NA
+CO401                  Authority under which depot holder operates     1126    2    N    I    5    0   No   No
+                               1   Government
+                               2   NGO
+                               3   Private
+                               4   Religious
+                               5   NSDP (Rural)
+                               6   NSDP (Urban)
+                               96  Other
+                               98  DK
+                           (m) 99  Missing
+                          (na)     NA
+CO402                  Depot holder lives in locality                  1136    1    N    I    5    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NotAppl
+CO403D                 If not, District of residence                   1141    2    N    I    5    0   No   No
+                           (m) 99  Missing
+                          (na)     NotAppl
+CO403T                 If not, Thana of residence                      1151    3    N    I    5    0   No   No
+                           (m) 999  Missing
+                          (na)      NotAppl
+CO403U                 If not, Union of residence                      1166    3    N    I    5    0   No   No
+CO403V                 If not, Village of residence                    1181    3    N    I    5    0   No   No
+CO404A                 Health service provided by depot holder         1196    1    N    I    5    0   No   No
+                               1  Unprompted
+                               2  Prompted
+                               3  No
+                           (m) 9  Missing
+                          (na)    NA
+CO404B                 FP service provided by depot holder             1201    1    N    I    5    0   No   No
+                               1  Unprompted
+                               2  Prompted
+                               3  No
+                           (m) 9  Missing
+                          (na)    NA
+CO404C                 Both services provided by depot holder          1206    1    N    I    5    0   No   No
+                               1  Unprompted
+                               2  Prompted
+                               3  No
+                           (m) 9  Missing
+                          (na)    NA
+CO404D                 ORS service provided by depot holder            1211    1    N    I    5    0   No   No
+                               1  Unprompted
+                               2  Prompted
+                               3  No
+                           (m) 9  Missing
+                          (na)    NA
+CO404E                 DK                                              1216    1    N    I    5    0   No   No
+                               1  Unprompted
+                               2  Prompted
+                               3  No
+                           (m) 9  Missing
+                          (na)    NA
+CO501                  Presence of allopathic/MBBS doctors in the vill 1221    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    Notappl
+CO502                  Number of allopathic/MBBS doctors in the villag 1222    1    N    I    1    0   No   No
+                               1  One
+                               2  2-5
+                               3  5+
+                               8  DK
+                           (m) 9  MIssing
+                          (na)    Notappl
+CO503U                 Distance to the nearest allopathic/MBBS doctor  1223    1    N    I    1    0   No   No
+                               1  Mile
+                               2  Kilometer
+                               9  Special value
+                          (na)    Notappl
+CO503N                 Distance to the nearest allopathic/MBBS doctor  1224    2    N    I    1    0   No   No
+                               0     In this village/mohalla
+                               1:97  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Notappl
+CO504                  Presence of homeopathic doctors in the village  1226    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    Notappl
+CO505                  Number of homeopathic doctors in the village    1227    1    N    I    1    0   No   No
+                               1  One
+                               2  2-5
+                               3  5+
+                               8  DK
+                           (m) 9  MIssing
+                          (na)    Notappl
+CO506U                 Distance to the nearest  homeopathic doctor (Un 1228    1    N    I    1    0   No   No
+                               1  Mile
+                               2  Kilometer
+                               9  Special value
+                          (na)    Notappl
+CO506N                 Distance to the nearest homeopathic doctor (num 1229    2    N    I    1    0   No   No
+                               0     In this village/mohalla
+                               1:97  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Notappl
+CO507                  Any ayurvedic/unani doctors in the village      1231    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    Notappl
+CO508                  Number of ayurvedic/unani doctors in the villag 1232    1    N    I    1    0   No   No
+                               1  One
+                               2  2-5
+                               3  5+
+                               8  DK
+                           (m) 9  MIssing
+                          (na)    Notappl
+CO509U                 Distance to the nearest ayurvedic/unani doctor  1233    1    N    I    1    0   No   No
+                               1  Mile
+                               2  Kilometer
+                               9  Special value
+                          (na)    Notappl
+CO509N                 Distance to the nearest ayurvedic/unani doctor  1234    2    N    I    1    0   No   No
+                               0     In this village/mohalla
+                               1:97  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Notappl
+CO510                  Any pharmacies in the village                   1236    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    Notappl
+CO511                  Number of pharmacies in the village             1237    1    N    I    1    0   No   No
+                               1  One
+                               2  2-5
+                               3  5+
+                               8  DK
+                           (m) 9  MIssing
+                          (na)    Notappl
+CO512U                 Distance to the nearest pharmacy (Unit)         1238    1    N    I    1    0   No   No
+                               1  Mile
+                               2  Kilometer
+                               9  Special value
+                          (na)    Notappl
+CO512N                 Distance to the nearest pharmacy (number)       1239    2    N    I    1    0   No   No
+                               0     In this village/mohalla
+                               1:97  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Notappl
+CO600                  Row number of doctor                            1241    2    N    I   20    0   No   No
+                               1:20  
+                          (na)       NA
+CO601                  Type of Doctor                                  1281    1    N    I   20    0   No   No
+                               1  Allopathic doctor
+                               2  Homeopathic doctor
+                               3  Ayurvedic/Unani
+                           (m) 9  Missing
+                          (na)    Notappl
+CO602                  Qualified doctor                                1301    1    N    I   20    0   No   No
+                               1  Have a certificate
+                               2  Have a certificate (Palli doctor)
+                               3  No cerificate
+                           (m) 9  Missing
+                          (na)    Notappl
+CO701A                 Any SBAs working in this village/ mohalla       1321    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    NA
+CO701BU                Distance to the nearest SBA                     1322    1    N    I    1    0   No   No
+                               1  Mile
+                               2  Kilometer
+                               9  Special value
+                          (na)    Notappl
+CO701BN                Distance to the nearest SBA                     1323    2    N    I    1    0   No   No
+                               0     In this village/mohalla
+                               1:97  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Notappl
+COENDH                 End of interview (hour)                         1325    2    N    I    1    0   No   No
+                               6:23  
+                               97    Inconsistent
+                           (m) 99    Missing
+COENDM                 End of interview (minutes)                      1327    2    N    I    1    0   No   No
+                               0:59  
+                               97    Inconsistent
+                           (m) 99    Missing
+--------------------------------------------------------------------------------------------------------------
+Relation Name         Primary               Linked by             Secondary             Linked by
+--------------------------------------------------------------------------------------------------------------
